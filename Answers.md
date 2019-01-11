@@ -6,7 +6,13 @@ React.js is a library (_not_ a framework) that allows you to build compact, reus
 
 2.  What does it mean to _think_ in react?
 
+Thinking in React, for me, means to think in terms of components and the flow of state throughout the application. Instead of being overwhelming, I find that this has the opposite effect... To quote Mel Gibson in _The Patriot_, "Aim small, miss small." By focusing on smaller components and how those puzzle pieces fit together, I think that React allows developers to develop an amazing, component-based (and extensible) application with less effort. Finally, state allows us as developers to intentional pass components the only data that it needs to do its job well; this keeps the "global scope," as it were, of that component relatively clean. At least, that's how I like to think _thinking in React_ works for my workflow.
+
 3.  Briefly describe some of the differences between a Class/Stateful component and a Functional/Presentational component.
+
+A _Class/Stateful_ component is a class-based component that is capable of holding state, normal methods, and lifecycle methods. They are largely where we are concerned with the behavior of the application, and we will pass down data and methods _from_ these components to other types to be displayed. Class components are dynamic in nature and are where we modify state using .setState().
+
+In contrast, _Functional/Presentational_ components are only concerned with displaying data based down on state using props. They are the meat and potatoes of the UI, and are typically what the user sees when they're actually interacting with the application. They are simple and easily modifiable due to the lack of complexity in their nature.
 
 4.  Describe state.
 
@@ -14,4 +20,4 @@ State is the method in React.js in which we hold data. The reason that it is so 
 
 5.  Describe props.
 
-Props is merely the data or methods hat you pass down from component to component. Data held on props could include a class name, a complete data set list, a method that handles text input, or anything else held in state.
+Props is merely the data or methods hat you pass down from component to component. Data held on props could include a class name, a complete data set list, a method that handles text input, or anything else held in state. Props are read-only as state is only modifiable using .setState() as I mentioned in question 4.
