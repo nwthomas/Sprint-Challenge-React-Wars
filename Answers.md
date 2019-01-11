@@ -10,4 +10,8 @@ React.js is a library (_not_ a framework) that allows you to build compact, reus
 
 4.  Describe state.
 
+State is the method in React.js in which we hold data. The reason that it is so special is that, in addition to being immutable except through the intentional use of .setState(), it also allows us to proactively modify the "state" of our application using the virtual DOM method I mentioned in question 1. By tracking (in state) which data has been modified, React is able to track which components (and only those components) need to be updated.
+
 5.  Describe props.
+
+Props is merely the data or methods hat you pass down from component to component. Data held on props could include a class name, a complete data set list, a method that handles text input, or anything else held in state.
