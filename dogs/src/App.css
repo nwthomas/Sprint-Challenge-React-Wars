@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.Header {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+}
+.pagination__buttons {
+  margin: 0 auto;
+}
+.button {
+  height: 50px;
+  width: 150px;
+  margin: 50px 5% 100px;
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-size: 1.4rem;
+  font-family: Futura, sans-serif;
+  opacity: 0.6;
+}
+.button:hover {
+  background: lightgray;
+  opacity: 1;
+}
+.button:active {
+  background: white;
+  opacity: 1;
+}
+/* write your parent styles in here for your App.js */
