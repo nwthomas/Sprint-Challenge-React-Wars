@@ -1,0 +1,8 @@
+.dog__img {
+  margin: 0 auto;
+}
+
+.dog__img img {
+  width: 30%;
+  height: auto;
+}
